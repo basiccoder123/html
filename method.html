@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods,Loops</title>
+</head>
+<body>
+    
+
+    <p>Basic Methods</p>
+    <script>
+        var str = "AmAzInG";
+        document.write("<br>");
+        document.write("<br>");
+        document.write(str.toLowerCase() + "<br>");
+        document.write("<br>");
+        document.write(str.startsWith("A"));
+        document.write("<br>");
+
+
+        var str1 = "I learnt new methods"
+        var patt = new RegExp("about");
+        var res = patt.test(str);
+        document.write(res);
+
+
+
+</script>
+
+<p id="demo"></p>
+    <script>
+        var fruits =["Apple", "Mango", "Banana",
+            "Watermelon", "Orange", "Pineapple",
+        ];
+        var text = "";
+        var i;
+        for ( i = 0; i < fruits.length; i++) {
+            text += fruits[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>
