@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        var cars = [
+            "coding",
+            "football",
+            "mango",
+        ]
+
+        document.getElementById("demo").innerHTML = cars[0] + "<br>" + cars[1] + "<br>" + cars[2];
+
+        var fruits = [
+            "apple", 
+            "banana", 
+            "cherry"];
+        document.getElementById("demo").innerHTML += "<br><br>" + fruits[fruits.length - 1];
+    </script>
+</body>
+</html>
